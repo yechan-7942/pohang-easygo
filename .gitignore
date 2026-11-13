@@ -1,0 +1,44 @@
+# 인증키·로컬 환경설정 (빈 입력 예시는 공유)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 의존성·빌드·호스팅 로컬 설정
+node_modules/
+dist/
+build/
+.next/
+.vercel/
+.venv/
+venv/
+
+# 원본·개인 자료·생성 문서 (참가신청서 포함)
+/data/raw/
+/data/private/
+/outputs/
+/uploads/
+
+# 테스트·도구 캐시·임시 파일
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+coverage/
+.coverage
+.cache/
+playwright-report/
+test-results/
+/tmp/
+/temp/
+*.log
+*.tmp
+*.swp
+*~
+
+# 운영체제 파일
+.DS_Store
+._*
+Thumbs.db

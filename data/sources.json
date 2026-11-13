@@ -1,0 +1,122 @@
+{
+  "researched_on": "2026-11-13",
+  "timezone": "Asia/Seoul",
+  "note": "출처 조사 목록. 복지 API 2개 목록·상세 인증 호출 확인(2026-11-13); 파일 내려받기·현장 확인은 미실시. 자세한 결과는 docs/api-verification-2026-11-13.md 참고.",
+  "sources": [
+    {
+      "id": "welfare-local",
+      "title": "한국사회보장정보원_지자체복지서비스",
+      "url": "https://www.data.go.kr/data/15108347/openapi.do",
+      "kind": "public_api",
+      "priority": "apply_first",
+      "status": "official_docs_checked",
+      "live_call_verified": true,
+      "live_checked_on": "2026-11-13",
+      "verification_report": "docs/api-verification-2026-11-13.md"
+    },
+    {
+      "id": "welfare-national",
+      "title": "한국사회보장정보원_중앙부처복지서비스",
+      "url": "https://www.data.go.kr/data/15090532/openapi.do",
+      "kind": "public_api",
+      "priority": "apply_next",
+      "status": "official_docs_checked",
+      "live_call_verified": true,
+      "live_checked_on": "2026-11-13",
+      "verification_report": "docs/api-verification-2026-11-13.md"
+    },
+    {
+      "id": "welfare-facilities",
+      "title": "한국사회보장정보원_사회복지시설정보서비스 현황",
+      "url": "https://www.data.go.kr/data/15001848/openapi.do",
+      "kind": "public_api",
+      "priority": "defer",
+      "status": "official_docs_checked",
+      "live_call_verified": false
+    },
+    {
+      "id": "government-benefits",
+      "title": "행정안전부_대한민국 공공서비스(혜택) 정보",
+      "url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "kind": "public_api",
+      "priority": "defer",
+      "status": "official_docs_checked",
+      "live_call_verified": false
+    },
+    {
+      "id": "library-directory",
+      "title": "전국도서관표준데이터",
+      "url": "https://www.data.go.kr/data/15013109/standard.do",
+      "kind": "public_standard_data",
+      "priority": "inspect_file",
+      "status": "official_docs_checked",
+      "download_verified": false
+    },
+    {
+      "id": "gov24-id-reissue",
+      "title": "정부24 주민등록증 재발급 신청",
+      "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000018&HighCtgCD=&tp_seq=01",
+      "kind": "official_guidance",
+      "status": "official_content_checked",
+      "field_verified": false
+    },
+    {
+      "id": "gov24-resident-register",
+      "title": "정부24 주민등록표 등본(초본) 발급",
+      "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015",
+      "kind": "official_guidance",
+      "status": "official_content_checked_with_access_notice",
+      "field_verified": false
+    },
+    {
+      "id": "mois-id-reissue",
+      "title": "행정안전부 주민등록증 재발급 안내",
+      "url": "https://mois.go.kr/frt/sub/a06/b06/IDCard_3/screen.do",
+      "kind": "official_guidance",
+      "status": "official_content_checked",
+      "field_verified": false
+    },
+    {
+      "id": "mois-id-home-visit",
+      "title": "행정안전부 중증장애인 방문발급",
+      "url": "https://mois.go.kr/frt/sub/a06/b06/IDCard_4/screen.do",
+      "kind": "official_guidance",
+      "status": "official_content_checked",
+      "field_verified": false
+    },
+    {
+      "id": "pohang-oral-application",
+      "title": "포항시 구술민원 안내",
+      "url": "https://pohang.go.kr/portal/contents.do?mid=0105070000",
+      "kind": "official_guidance",
+      "status": "official_content_checked",
+      "field_verified": false
+    },
+    {
+      "id": "pohang-library-membership",
+      "title": "포항시립도서관 공식 홈페이지",
+      "url": "https://phlib.pohang.go.kr/",
+      "kind": "official_guidance",
+      "status": "blocked_by_web_firewall",
+      "field_verified": false
+    },
+    {
+      "id": "kakao-local",
+      "title": "Kakao Local 개발 가이드",
+      "url": "https://developers.kakao.com/docs/ko/local/dev-guide",
+      "kind": "commercial_api_docs",
+      "priority": "defer",
+      "status": "official_docs_checked",
+      "live_call_verified": false
+    },
+    {
+      "id": "kakao-maps",
+      "title": "Kakao Maps Web 가이드",
+      "url": "https://apis.map.kakao.com/web/guide/",
+      "kind": "commercial_sdk_docs",
+      "priority": "defer",
+      "status": "official_docs_checked",
+      "live_call_verified": false
+    }
+  ]
+}
